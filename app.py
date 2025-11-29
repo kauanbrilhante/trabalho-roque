@@ -16,7 +16,7 @@ produtos = [
 def home():
     return jsonify({
         "mensagem": "API de Produtos - CI/CD Demo",
-        "versao": "1.0.0",
+        "versao": "1.0.1",
         "endpoints": ["/produtos", "/produtos/<id>", "/health"]
     })
 
